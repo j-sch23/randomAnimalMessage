@@ -173,7 +173,7 @@ const animalData = {
     }
     };
 const animalAssembler = () => {
-    let index = Math.floor(Math.random() * 4)
+    let index = Math.floor(Math.random() * 5)
     switch (index) {
         case 0:
             return `${animalData.animal} are found on the planet ${animalData.planet} and typically weigh between ${animalData.randomWeight()} and ${animalData.randomWeight()} pounds.\nThey have ${animalData.color} ${animalData.exterior}, ${animalData.attribDesc} ${animalData.attrib}, and ${animalData.attribDesc} ${animalData.attrib}. \nThey are known for having ${animalData.qualityDesc} ${animalData.quality}.`;
